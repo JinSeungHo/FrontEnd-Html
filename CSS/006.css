@@ -1,0 +1,25 @@
+:root {
+    --color1: #DFFF00;
+    --color2: #FFBF00;
+    --color3: #FF7F50;
+    --color4: #DE3163;
+    --color5: #9FE2BF;
+    --color6: #40E0D0;
+    --color7: #6495ED;
+    --color8: #CCCCFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+h1{
+    color: red;
+}
