@@ -1,0 +1,59 @@
+:root {
+    --color1: #DFFF00;
+    --color2: #FFBF00;
+    --color3: #FF7F50;
+    --color4: #DE3163;
+    --color5: #9FE2BF;
+    --color6: #40E0D0;
+    --color7: #6495ED;
+    --color8: #CCCCFF;
+}
+
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.page-header{
+    padding: 1em;
+    background: lightgray;
+}
+.global-menu-link{
+    display: block;
+    margin-bottom: 5px;
+    background: white;
+}
+.content-container:after{
+    content:' ';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.content-section{
+    float: left;
+    font-size: 1rem;
+    padding: 1em;
+}
+
+.content-section-a{
+    width: calc(30% - 2em); /*calc 연산 양옆에 공백이 사용되어야힘*/
+    background: yellow;
+
+}
+.content-section-b{
+    width: calc(70% - 2em);
+    background: pink;
+}
+.page-footer{
+
+    padding: 1em;
+    background: yellowgreen;
+}
