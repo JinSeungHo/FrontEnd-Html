@@ -2,10 +2,35 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>flexbox</title>
+    <title>flexbox1</title>
     <link rel="stylesheet" type="text/css" href="">
+    <style>
+        .container{
+            display: flex;
+            /*flex-direction: column;*/
+            /*justify-content: center;*/
+            /*align-items: center;*/
+            height: 80vh;
+            background: gray;
+        }
+        .item{
+
+            /*flex-grow: 1;*/
+            /*flex-basis: 0;*/
+            flex: 1;
+            padding: 3em;
+            border: 3px solid black;
+            background: white;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container">
+    <div class="item">AAA</div>
+    <div class="item">B</div>
+    <div class="item">CCCCC</div>
+    <div class="item">DD</div>
+    <div class="item">E</div>
+</div>
 </body>
 </html>
